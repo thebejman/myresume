@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,96 +8,131 @@
     <meta name="description" content="Резюме Андрея">
     <meta name="keywords" content="andrei,cv,resume">
 
+    <link rel="stylesheet" href="styles.css">
+
     <title>Resume</title>
 </head>
+
 <body>
-    <img src="https://usa.firenews.video/wp-content/uploads/2022/02/160c6e983939d52d76b97d470ee87651.jpg" width="150" alt="место для фото">
-    
-    <h1>I'm Andrei Andreev</h1>
+    <div class="container">
+        <div class="info">
+            <img src="https://usa.firenews.video/wp-content/uploads/2022/02/160c6e983939d52d76b97d470ee87651.jpg"
+                alt="место для фото" class="avatar">
+            <div class="infot">
+                <div class="info-text">
 
-    <p>I live on the planet <strong>Earth</strong> more than <strong><em>30 years!</em></strong></p>
-    
-    <p>I like: <em>footbal, music and video games!</em></p>
+                    <h1>I'm Andrei Andreev</h1>
 
-    <h2>My scoial media accounts:</h2>
-    
-    <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" width="12" alt="место для фото">
-    
-    <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
+                    <p>I live on the planet <strong>Earth</strong> more than <strong><em>30 years!</em></strong></p>
 
-    |
+                    <p>I like: <em>footbal, music and video games!</em></p>
+                </div>
+                <div class="card soc">
 
-    <img src="https://voonze.com/wp-content/uploads/2021/11/Lite.jpg" width="22" alt="место для фото">
-    
-    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <h2>My scoial media accounts:</h2>
 
-    |
+                    <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+                        width="12" alt="место для фото">
 
-    <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="12" alt="место для фото">
-    
-    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
 
-    <hr>
+                    |
 
-    <h2>My hobbies</h2>
+                    <img src="https://voonze.com/wp-content/uploads/2021/11/Lite.jpg" width="22" alt="место для фото">
 
-    <ul type="circle">
-        <li>Video</li>
-        <li>Blogging</li>
-        <li>Footbal</li>
-        <li>Design</li>
-    </ul>
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
 
-<h2>Job expirience</h2>
+                    |
 
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Job</th>
-                <th>Period</th>
-            </tr>
-        </thead>
+                    <img src="https://www.facebook.com/images/fb_icon_325x325.png" width="12" alt="место для фото">
 
-        <tbody>
-            <tr>
-                <td>DXC Tehnology</td>
-                <td>Service Desk Engenier</td>
-                <td>2015-2019</td>
-            </tr>
-            <tr>
-                <td>Time Nature Tour</td>
-                <td>Tour Guide</td>
-                <td>2019-2020</td>
-            </tr>
-            <tr>
-                <td>Freelance</td>
-                <td>Web-Designer</td>
-                <td>2020-...</td>
-            </tr>
-        </tbody>
-    </table>
-    
-<h2>Please fill the form</h2>
-     <form>
-        <div>
-            <label for="name">1</label>
-            <input type="text" id="name" placeholder="Your name">
-        </div>
-        <div>
-            <label for="mail">2</label>
-            <input type="email" id="mail" placeholder="Your email">
-        </div>
-        <div>
-            <label for="message">3</label>
-            <br>
-            <textarea id="message" cols="22" rows="10" placeholder="Write here..."></textarea>
-        </div>
-        <div>
-            <button type="submit">Send</button>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+            </div>
         </div>
 
-     </form>
+
+
+        <div class="card">
+            <h2>My hobbies</h2>
+            <div class="hobbies">
+
+                <ul class="list" type="circle">
+                    <li>Video</li>
+                    <li>Blogging</li>
+                    <li>Footbal</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Job expirience</h2>
+
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Job</th>
+                        <th>Period</th>
+                    </tr>
+                </thead> -->
+
+                <tbody>
+                    <tr>
+                        <td>DXC Tehnology</td>
+                        <td>Service Desk Engenier</td>
+                        <td>2015-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Time Nature Tour</td>
+                        <td>Tour Guide</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>Freelance</td>
+                        <td>Web-Designer</td>
+                        <td>2020-...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h2>Knowledge</h2>
+            <div class="knowledge">
+
+                <ol class="list2" type="1">
+                    <li>Basics of Commercial Design</li>
+                    <li>Web-Design from 0 to PRO</li>
+                    <li>Basics of HTML and CSS</li>
+                </ol>
+            </div>
+        </div>
+        <div class="card">
+            <form action="/" class="form">
+                <h2>Please fill the form</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Commentary</label>
+
+                    <textarea id="message" cols="22" rows="10" placeholder="Write here..."></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 </body>
+
 </html>
